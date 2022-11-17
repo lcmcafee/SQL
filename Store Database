@@ -10,4 +10,4 @@ VALUES (1, "plate", 32.00, 5.00),
 (7, "large mug", 75.00, 10.00), 
 (8, "coasters", 75.00, 10.00);
 
-SELECT * FROM Lala_World GROUP BY cost;
+SELECT * FROM Lala_World ORDER BY cost;
